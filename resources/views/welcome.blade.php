@@ -1,16 +1,17 @@
-<x-layout.frontend>
-    <div class="Hello">Hello home </div>
+<!DOCTYPE html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
-    <x-slot name="sidebar">
-        <div class="HelloSidebar"> Hello Sidebar</div>
-    </x-slot>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Laravel</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
 
+<body>
 
-    <x-slot name="javascript">
-        <script text="text/javascript">
-            alert('sssssssssssss')
-        </script>
-    </x-slot>
+    Welcome
+</body>
 
-
-</x-layout.frontend>
+</html>
